@@ -34,4 +34,3 @@ jobs:
       - name: Lint code.
         run: |
           yamllint .
-          

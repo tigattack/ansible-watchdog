@@ -3,4 +3,3 @@
   ansible.builtin.service:
     name: '{{ watchdog_service_name }}'
     state: restarted
-    
