@@ -1,12 +1,12 @@
 ---
 galaxy_info:
   role_name: watchdog
-  author: Evan Meagher
+  author: drum7
+  namespace: drum7
   description: Configure the software watchdog daemon provided by the Linux kernel
-  company: Whisker Labs
+  company: N/A
   license: MIT
-  min_ansible_version: 1.9
-
+  min_ansible_version: '1.9'
   platforms:
     - name: Debian
       versions:
@@ -14,20 +14,11 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - all
-
-  categories:
-    #- cloud
-    #- cloud:ec2
-    #- cloud:gce
-    #- cloud:rax
-    #- clustering
-    #- database
-    #- database:nosql
-    #- database:sql
-    #- development
+  galaxy_tags:
     - monitoring
-    #- networking
-    #- packaging
     - system
-    #- web
+    - raspberry
+    - pi
+    - raspbian
+
 dependencies: []

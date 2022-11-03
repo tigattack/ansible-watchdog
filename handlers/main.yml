@@ -1,3 +1,5 @@
 ---
-- name: restart watchdog daemon
-  service: name="{{watchdog_service_name}}" state=restarted
+- name: Restart Watchdog Daemon
+  ansible.builtin.service: 
+    name: '{{ watchdog_service_name }}'
+    state: restarted
