@@ -1,6 +1,6 @@
 ---
 - name: Install the Watchdog Package
-  ansible.builtin.apt: 
+  ansible.builtin.apt:
     pkg: watchdog
     state: present
 
