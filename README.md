@@ -1,6 +1,6 @@
 # ansible-watchdog
 
-[![Ansible Galaxy](https://img.shields.io/badge/Ansible%20Galaxy-drum7.watchdog-660198)](https://galaxy.ansible.com/list#/roles/60838)
+[![Ansible Galaxy](https://img.shields.io/badge/Ansible%20Galaxy-drum7.watchdog-660198)](https://galaxy.ansible.com/drum7/watchdog)
 
 An Ansible role for installing and configuring the [software watchdog daemon provided by the Linux kernel](http://linux.die.net/man/8/watchdog). 
 
